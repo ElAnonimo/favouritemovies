@@ -1,0 +1,59 @@
+.admin_users {
+   margin-left: 50px;
+   margin-top: 40px;
+}
+
+.admin_users h2 {
+   font-size: 1.25em;
+   margin-bottom: 20px;
+}
+
+.admin_table {
+   border-spacing: 2px;
+   border-collapse: separate;
+}
+
+.admin_table th {
+   font-weight: bold;
+   text-align: left;
+   background-color: #F1F1F1;
+}
+
+.admin_table td, .admin_table th {
+   border: 1px solid black;
+}
+
+.admin_table td, .admin_table th, .admin_table input {
+   height: 35px;
+}
+
+th.data_col, .admin_table input {
+   width: 200px;
+}
+
+th.admin_col {
+   width: 80px;
+}
+
+.admin_table th, .admin_table input {
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+.admin_table input {
+   font-size: 0.9em;
+   border: none;
+}
+
+input {
+   outline: none;
+}
+
+.admin_table input:focus {
+   background-color: #FEE5AC;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
